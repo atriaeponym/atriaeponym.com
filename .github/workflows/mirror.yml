@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
 
 concurrency:
   group: mirror
@@ -37,9 +36,7 @@ jobs:
           echo atriaeponym.com > mirror/CNAME
           # Scheduled workflows stop after 60 days without commits in a public repository.
           date -u +%Y-%m > mirror/.keepalive
-      - name: Commit and rebuild the site
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Commit (the push rebuilds the site)
         run: |
           cd mirror
           git add -A
@@ -48,4 +45,3 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -qm "sync: atriaeponym.github.io $(git -C ../source rev-parse --short HEAD)"
           git push -q
-          gh api -X POST "repos/${{ github.repository }}/pages/builds" > /dev/null
