@@ -1,0 +1,51 @@
+name: Mirror atriaeponym.github.io
+
+# Copies the source site here every 30 minutes, rewriting absolute links to the new domain.
+# The github.io address is left untouched (no redirect): apps already in the stores verify their
+# invitation links there.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: mirror
+      - uses: actions/checkout@v4
+        with:
+          repository: atriaeponym/atriaeponym.github.io
+          path: source
+      - name: Copy and rewrite
+        run: |
+          rsync -a --delete \
+            --exclude .git --exclude .github --exclude CNAME --exclude README.md --exclude .keepalive \
+            source/ mirror/
+          find mirror -path mirror/.git -prune -o -type f \( -name '*.html' -o -name '*.xml' -o -name '*.txt' \) -print0 \
+            | xargs -0 sed -i 's#https://atriaeponym.github.io/#https://atriaeponym.com/#g'
+          echo atriaeponym.com > mirror/CNAME
+          # Scheduled workflows stop after 60 days without commits in a public repository.
+          date -u +%Y-%m > mirror/.keepalive
+      - name: Commit and rebuild the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd mirror
+          git add -A
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -qm "sync: atriaeponym.github.io $(git -C ../source rev-parse --short HEAD)"
+          git push -q
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" > /dev/null
