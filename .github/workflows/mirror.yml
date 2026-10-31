@@ -17,12 +17,12 @@ concurrency:
 
 jobs:
   mirror:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: mirror
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: atriaeponym/atriaeponym.github.io
           path: source
