@@ -122,6 +122,16 @@
         "Hiçbir fotoğrafın kaybolmadığının kanıtı",
         "Orijinaller asla değiştirilmez"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Kariyer dökümü",
+        "Agirc-Arrco puanları",
+        "Tutarsızlıklar bulunur",
+        "Resmi tablolar",
+        "Cihazda kalır"
+      ],
+      "tagline": "Fransa'da özel sektör çalışanları için: emeklilik dökümleriniz resmi tablolara göre yıl yıl kontrol edilir, çeyrekler ve puanlar yeniden hesaplanır, tutarsızlıklar saniyeler içinde bulunur. Hiçbir şey cihazınızdan çıkmaz."
     }
   }
 }

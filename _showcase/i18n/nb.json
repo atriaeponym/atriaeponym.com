@@ -122,6 +122,16 @@
         "Bevis på at ingen bilder gikk tapt",
         "Originalene endres aldri"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Opptjeningsoversikt",
+        "Agirc-Arrco-poeng",
+        "Avvik funnet",
+        "Offisielle satser",
+        "Blir på enheten"
+      ],
+      "tagline": "For ansatte i privat sektor i Frankrike: pensjonsoversiktene deres kontrollert år for år mot de offisielle satsene, kvartaler og poeng regnet ut på nytt, avvik funnet på sekunder. Ingenting forlater enheten."
     }
   }
 }

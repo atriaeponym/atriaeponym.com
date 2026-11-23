@@ -122,6 +122,16 @@
         "Prueba de que no se perdió ninguna foto",
         "Originales nunca modificados"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Historial de carrera",
+        "Puntos Agirc-Arrco",
+        "Anomalías detectadas",
+        "Baremos oficiales",
+        "Nada sale del dispositivo"
+      ],
+      "tagline": "Para asalariados del sector privado en Francia: sus extractos de jubilación revisados año por año con los baremos oficiales, trimestres y puntos recalculados, anomalías detectadas en segundos. Nada sale de su dispositivo."
     }
   }
 }

@@ -596,6 +596,51 @@
           "url": "cbt/privacy/"
         }
       ]
+    },
+    {
+      "id": "assistantretraite",
+      "name": "Assistant Retraite",
+      "icon": "icons/assistantretraite.png",
+      "tagline": {
+        "fr": "Salariés du privé : vos relevés retraite vérifiés année par année sur les barèmes officiels, trimestres et points recalculés, anomalies repérées en quelques secondes. Rien ne quitte votre appareil.",
+        "en": "For employees of the French private sector: your pension statements checked year by year against the official scales, quarters and points recalculated, anomalies spotted in seconds. Nothing leaves your device."
+      },
+      "features": {
+        "fr": [
+          "Relevé de carrière",
+          "Points Agirc-Arrco",
+          "Anomalies repérées",
+          "Barèmes officiels",
+          "Rien ne quitte l'appareil"
+        ],
+        "en": [
+          "Career statement",
+          "Agirc-Arrco points",
+          "Anomalies spotted",
+          "Official scales",
+          "Stays on your device"
+        ]
+      },
+      "more_features": false,
+      "platforms": [
+        {
+          "platform": "android",
+          "channel": "play",
+          "status": "live",
+          "url": "https://play.google.com/store/apps/details?id=com.atriaeponym.assistantretraite"
+        },
+        {
+          "platform": "mac",
+          "channel": "msstore",
+          "status": "live",
+          "url": "https://apps.microsoft.com/detail/9N0M531S5SS2"
+        }
+      ],
+      "privacy": [
+        {
+          "url": "assistant-retraite/privacy/"
+        }
+      ]
     }
   ]
 }

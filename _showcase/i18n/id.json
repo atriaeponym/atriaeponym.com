@@ -122,6 +122,16 @@
         "Bukti tidak ada foto yang hilang",
         "Berkas asli tidak pernah diubah"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Riwayat karier",
+        "Poin Agirc-Arrco",
+        "Kejanggalan ditemukan",
+        "Tabel resmi",
+        "Tetap di perangkat"
+      ],
+      "tagline": "Untuk karyawan sektor swasta di Prancis: laporan pensiun Anda diperiksa tahun demi tahun dengan tabel resmi, triwulan dan poin dihitung ulang, kejanggalan ditemukan dalam hitungan detik. Tidak ada yang keluar dari perangkat Anda."
     }
   }
 }

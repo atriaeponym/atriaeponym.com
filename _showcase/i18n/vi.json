@@ -122,6 +122,16 @@
         "Bằng chứng không mất ảnh nào",
         "Không bao giờ sửa bản gốc"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Bảng kê quá trình làm việc",
+        "Điểm Agirc-Arrco",
+        "Phát hiện sai lệch",
+        "Biểu chuẩn chính thức",
+        "Ở lại trên thiết bị"
+      ],
+      "tagline": "Dành cho người làm công trong khu vực tư nhân tại Pháp: bảng kê hưu trí của quý vị được kiểm tra từng năm theo biểu chuẩn chính thức, tính lại quý và điểm, phát hiện sai lệch trong vài giây. Không gì rời khỏi thiết bị của quý vị."
     }
   }
 }

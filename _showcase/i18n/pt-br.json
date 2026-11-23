@@ -122,6 +122,16 @@
         "Prova de que nenhuma foto se perdeu",
         "Originais nunca modificados"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Extrato de carreira",
+        "Pontos Agirc-Arrco",
+        "Anomalias encontradas",
+        "Tabelas oficiais",
+        "Nada sai do aparelho"
+      ],
+      "tagline": "Para empregados do setor privado na França: seus extratos de aposentadoria conferidos ano a ano com as tabelas oficiais, trimestres e pontos recalculados, anomalias encontradas em segundos. Nada sai do seu aparelho."
     }
   }
 }

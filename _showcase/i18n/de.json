@@ -122,6 +122,16 @@
         "Beweis, dass kein Foto fehlt",
         "Originale werden nie verändert"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Versicherungsverlauf",
+        "Agirc-Arrco-Punkte",
+        "Unstimmigkeiten erkannt",
+        "Offizielle Tabellen",
+        "Bleibt auf dem Gerät"
+      ],
+      "tagline": "Für Angestellte der französischen Privatwirtschaft: Ihre Rentenauszüge Jahr für Jahr mit den offiziellen Tabellen geprüft, Quartale und Punkte neu berechnet, Unstimmigkeiten in Sekunden erkannt. Nichts verlässt Ihr Gerät."
     }
   }
 }

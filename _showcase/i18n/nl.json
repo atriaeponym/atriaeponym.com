@@ -122,6 +122,16 @@
         "Bewijs dat geen foto verloren ging",
         "Originelen nooit gewijzigd"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Loopbaanoverzicht",
+        "Agirc-Arrco-punten",
+        "Afwijkingen gevonden",
+        "Officiële tabellen",
+        "Blijft op uw toestel"
+      ],
+      "tagline": "Voor werknemers in de Franse private sector: uw pensioenoverzichten jaar na jaar gecontroleerd met de officiële tabellen, kwartalen en punten herberekend, afwijkingen in enkele seconden gevonden. Niets verlaat uw toestel."
     }
   }
 }

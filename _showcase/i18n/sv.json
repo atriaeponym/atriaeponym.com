@@ -122,6 +122,16 @@
         "Bevis på att inget foto förlorats",
         "Originalen ändras aldrig"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Karriärbesked",
+        "Agirc-Arrco-poäng",
+        "Avvikelser hittade",
+        "Officiella tabeller",
+        "Stannar på enheten"
+      ],
+      "tagline": "För anställda i den franska privata sektorn: era pensionsbesked kontrollerade år för år mot de officiella tabellerna, kvartal och poäng omräknade, avvikelser hittade på några sekunder. Inget lämnar er enhet."
     }
   }
 }

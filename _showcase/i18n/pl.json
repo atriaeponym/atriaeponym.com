@@ -122,6 +122,16 @@
         "Dowód, że żadne zdjęcie nie zginęło",
         "Oryginały nigdy nie są zmieniane"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Przebieg kariery",
+        "Punkty Agirc-Arrco",
+        "Wykryte nieprawidłowości",
+        "Oficjalne tabele",
+        "Nic nie opuszcza urządzenia"
+      ],
+      "tagline": "Dla pracowników sektora prywatnego we Francji: wyciągi emerytalne sprawdzane rok po roku według oficjalnych tabel, kwartały i punkty przeliczone, nieprawidłowości wykryte w kilka sekund. Nic nie opuszcza urządzenia."
     }
   }
 }

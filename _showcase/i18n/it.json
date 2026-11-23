@@ -122,6 +122,16 @@
         "Prova che nessuna foto è andata persa",
         "Originali mai modificati"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Estratto contributivo",
+        "Punti Agirc-Arrco",
+        "Anomalie individuate",
+        "Tabelle ufficiali",
+        "Tutto resta sul dispositivo"
+      ],
+      "tagline": "Per i dipendenti del settore privato in Francia: i suoi estratti pensionistici verificati anno per anno sulle tabelle ufficiali, trimestri e punti ricalcolati, anomalie individuate in pochi secondi. Nulla lascia il suo dispositivo."
     }
   }
 }

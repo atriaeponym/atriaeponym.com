@@ -122,6 +122,16 @@
         "Todiste, ettei yhtään kuvaa kadonnut",
         "Alkuperäisiä ei koskaan muuteta"
       ]
+    },
+    "assistantretraite": {
+      "features": [
+        "Työuraote",
+        "Agirc-Arrco-pisteet",
+        "Poikkeamat löydetty",
+        "Viralliset taulukot",
+        "Pysyy laitteella"
+      ],
+      "tagline": "Ranskan yksityisen sektorin palkansaajille: eläkeotteenne tarkistetaan vuosi vuodelta virallisia taulukoita vasten, neljännekset ja pisteet lasketaan uudelleen, poikkeamat löytyvät sekunneissa. Mikään ei lähde laitteeltanne."
     }
   }
 }
